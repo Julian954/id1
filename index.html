@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Suma de Ingresos</title>
+</head>
+<body>
+    <h1>Calculadora de Suma de Ingresos</h1>
+    <form id="ingresosForm">
+        <label for="ingreso1">Lapso de tiempo:</label>
+        <select name="lapsotime" id="time-select">
+            <option value="">--selecciona una opcion--</option>
+            <option value="semanal">Semanal</option>
+            <option value="quincenal">Quincenal</option>
+            <option value="mensual">Mensual</option>
+        </select><br><br>
+        
+        <label for="ingreso2">Ingreso 2:</label>
+        <input type="number" id="ingreso2" name="ingreso2" step="1"><br><br>
+        
+        <label for="ingreso3">Ingreso 3:</label>
+        <input type="number" id="ingreso3" name="ingreso3" step="1"><br><br>
+        
+        <button type="button" onclick="calcularSuma()">Calcular Suma</button>
+    </form>
+    <h2>Total de Ingresos: $<span id="resultado">0.00</span></h2>
+    
+    <h2>Total de Ingresos: $<span id="resultado">0.00</span></h2>
+    <h2>Total de Ingresos: $<span id="resultado">0.00</span></h2>
+    <h2>Total de Ingresos: $<span id="resultado">0.00</span></h2>
+    <script src="app.js"></script>
+</body>
+</html>
